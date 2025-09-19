@@ -25,7 +25,7 @@ Permite gestionar el historial de un proyecto, trabjar en equipo y mantener la c
 
 ##  📂 Repositorios
 Un repositorio es el proyecto con todos los archivos y su historial
-Puede estar disponible en servicio online **GitHUb, Bitbucket, Gitlab **.
+Puede estar disponible en servicio online **GitHUb, Bitbucket, Gitlab**.
 Normalmente trabajamos con una **copia local** en nuestro equipo.
 
 ---
