@@ -67,6 +67,19 @@ git push -u origin main
 git remote -v
 ```
 
+## Comandos Informativos 
+
+```sh
+git fech 
+git status
+```
+
+## Clonar Repositorio
+
+```sh
+git clone https://github.com/nolimits4web/swiper
+```
+
 ## Caso Específico
 
 ### Deshacer el último commit pero conservar los cambios en los archivos
