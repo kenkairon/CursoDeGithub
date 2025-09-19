@@ -59,7 +59,7 @@ git add ejemplo.html
 git commit -m "Agregar ejemplo"
 git branch -M main
 git remote add origin https://github.com/kenkairon/CursoDeGithub"
-git push origin main
+git push -u origin main
 ```
 
 ## Caso Específico
