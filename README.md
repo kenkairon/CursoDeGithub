@@ -108,23 +108,20 @@ git clone https://github.com/nolimits4web/swiper
 
 ## Caso Específico
 
-### Deshacer el último commit pero conservar los cambios en los archivos
+#### Deshacer el último commit pero conservar los cambios en los archivos
 ```sh
 git reset --soft HEAD~1
 ```
-### Deshacer el último commit y también quitarlo del área de staging
+#### Deshacer el último commit y también quitarlo del área de staging
 ```sh
 git reset --mixed HEAD~1
 ```
-### Deshacer el último commit y borrar también los cambios en los archivos
+#### Deshacer el último commit y borrar también los cambios en los archivos
 ```sh
 git reset --hard HEAD~1
 ```
 
 ## Plugins
-
-Dillinger is currently extended with the following plugins.
-Instructions on how to use them in your own application are linked below.
 
 | Plugin | README |
 | ------ | ------ |    
