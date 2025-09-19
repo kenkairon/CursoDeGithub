@@ -57,6 +57,7 @@ git config --global user.email "ingeinfo2006@gmail.com”
 git init 
 git add ejemplo.html
 git commit -m "Agregar ejemplo"
+git branch -M main
 git remote add origin https://github.com/kenkairon/CursoDeGithub"
 git push origin main
 ```
