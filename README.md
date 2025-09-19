@@ -66,5 +66,5 @@ Instructions on how to use them in your own application are linked below.
 
 | Plugin | README |
 | ------ | ------ |
-
+    
 | GitHub | [plugins/github/README.md][PlGh] |
