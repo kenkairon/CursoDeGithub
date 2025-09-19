@@ -29,7 +29,7 @@ kenkairon/nuevoRepositorio
 Descripción = Clase de Git 
 create repository
 Abrimos terminal en code .
-```sh
+```
 
 ## Veriicamos si esta instalado
 
