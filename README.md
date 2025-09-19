@@ -1,43 +1,64 @@
-## Software Necesario
+# Curso de Git y GitHub
 
-Requeridos1 [vscode](https://code.visualstudio.com/) 
-Requeridos2 [GitHub](https://git-scm.com/) 
+Este repositorio contiene ejemplo y pasos básicos para aprender a trabajar con **Git** y **GitHub**
 
-## git
-Software de control de versiones diseñado por Linus Torvals
+---
 
-## Beneficios de Git
-Trabajo en Equipo 
-Manejos de Calidad Trabajando a través de Ramas
+## 📌 Software Necesario
 
-## Repositorios
-El proyecto con todos los archivos "originales"
-Disponible online = GitHUb, Bitbucket, Gitlab
-Trabajamos con una copia
+[Visual Studio Code](https://code.visualstudio.com/) 
+[Git](https://git-scm.com/) 
 
-## Git 
-Nuevo Repositorio
-Clonar Repositorio
+---
 
-Crear Cuenta [Github](https://github.com/)
+## 🐙 ¿Qué es Git
 
-## Nuevo Repositorio
+***Git** Es Software de control de versiones diseñado por ***Linus Torvals***.
+Permite gestionar el historial de un proyecto, trabjar en equipo y mantener la calidad del código
 
-```sh
-Botón de new 
-kenkairon/nuevoRepositorio
-Descripción = Clase de Git 
-create repository
-Abrimos terminal en code .
-```
+### ✅ Beneficios de Git
+- Trabajo en Equipo más organizado
+- Manejos de Calidad  y Control de Cambios
+- Creación de ramas para desarrollar sin afectar el código principal
 
-## Verificamos si esta instalado
+---
+
+##  📂 Repositorios
+Un repositorio es el proyecto con todos los archivos y su historial
+Puede estar disponible en servicio online **GitHUb, Bitbucket, Gitlab **.
+Normalmente trabajamos con una **copia local** en nuestro equipo.
+
+---
+
+## 🚀 Primeros pasos Git 
+
+### Crear cuenta en GitHub 
+👉 [Registrarme en GitHub](https://github.com/)
+
+
+### Crear un nuevo repositorio
+1. En GitHub, haz clic en **New**`
+2. Nombre: `nuevoRepositorio`
+3. Descripción: *Clase de Git*
+4. Clic en ***Create repository***
+5. Abrir la terminal en VSCode con :
+  ```sh
+    code .
+  ```
+
+
+##  🔧Verificar instalación
 
 ```sh
 git -v 
+```
+## Crear un archivo de prueba:
+
+```sh
 touch ejemplo.html
 ```
-```sh
+
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -51,9 +72,14 @@ touch ejemplo.html
 </html>
 ```
 
+## ⚙️ Configuración inicial de Git
 ```sh
 git config --global user.name "kenkairon"
 git config --global user.email "ingeinfo2006@gmail.com”
+```
+
+## 📥 Flujo básico de Git
+```sh
 git init 
 git add ejemplo.html
 git commit -m "Agregar ejemplo"
@@ -67,14 +93,14 @@ git push -u origin main
 git remote -v
 ```
 
-## Comandos Informativos 
+## 📊 Comandos informativos
 
 ```sh
 git fech 
 git status
 ```
 
-## Clonar Repositorio
+## 🔄 Clonar un repositorio existente
 
 ```sh
 git clone https://github.com/nolimits4web/swiper
