@@ -51,7 +51,10 @@ touch ejemplo.html
 
 ```sh
 git init 
-
+git add ejemplo.html
+git commit -m "Agregar ejemplo"
+git remote add origin https://github.com/kenkairon/CursoDeGithub"
+git push origin main
 ```
 
 ## Plugins
