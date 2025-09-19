@@ -61,6 +61,11 @@ git branch -M main
 git remote add origin https://github.com/kenkairon/CursoDeGithub"
 git push -u origin main
 ```
+## Comprobar que estamos en el archivo remoto que asignamos
+
+```sh
+git remote -v
+```
 
 ## Caso Específico
 
