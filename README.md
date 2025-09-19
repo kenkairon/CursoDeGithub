@@ -23,11 +23,11 @@ Crear Cuenta [Github](https://github.com/)
 
 ## Nuevo Repositorio
 
-1- Botón de new 
-2- kenkairon/nuevoRepositorio
-3- Descripción = Clase de Git 
-4- create repository
-5 - Abrimos terminal en code .
+Botón de new 
+kenkairon/nuevoRepositorio
+Descripción = Clase de Git 
+create repository
+Abrimos terminal en code .
 
 ## Veriicamos si esta instalado
 
