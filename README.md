@@ -123,9 +123,6 @@ git reset --hard HEAD~1
 
 ## Plugins
 
-Dillinger is currently extended with the following plugins.
-Instructions on how to use them in your own application are linked below.
-
 | Plugin | README |
 | ------ | ------ |    
-| GitHub | [plugins/github/README.md][PlGh] |
+| GitHub | [https://github.com/kenkairon/CursoDeGithub/blob/main/README.md][PlGh] |
