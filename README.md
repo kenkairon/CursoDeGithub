@@ -52,6 +52,8 @@ touch ejemplo.html
 ```
 
 ```sh
+git config --global user.name "kenkairon"
+git config --global user.email "ingeinfo2006@gmail.com”
 git init 
 git add ejemplo.html
 git commit -m "Agregar ejemplo"
