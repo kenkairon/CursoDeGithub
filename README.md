@@ -31,7 +31,7 @@ create repository
 Abrimos terminal en code .
 ```
 
-## Veriicamos si esta instalado
+## Verificamos si esta instalado
 
 ```sh
 git -v 
