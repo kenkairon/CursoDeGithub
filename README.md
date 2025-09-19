@@ -128,4 +128,7 @@ Instructions on how to use them in your own application are linked below.
 
 | Plugin | README |
 | ------ | ------ |    
-| GitHub | [https://github.com/kenkairon/CursoDeGithub/blob/main/README.md][PlGh] |
+| GitHub | [plugins/github/README.md][PlGh] |
+
+
+
