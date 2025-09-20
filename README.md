@@ -2,6 +2,8 @@
 
 Este repositorio contiene ejemplo y pasos básicos para aprender a trabajar con **Git** y **GitHub**
 
+![GitHub Repo stars](https://img.shields.io/github/stars/kenkairon/CursoDeGithub)
+
 ---
 
 ## 📌 Software Necesario
