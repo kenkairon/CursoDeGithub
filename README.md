@@ -20,7 +20,7 @@ colaborativo, y practicar el flujo básico de trabajo  con repositorios locales 
 
 ## 🐙 ¿Qué es Git
 
-***Git** Es Software de control de versiones diseñado por ***Linus Torvals***.
+***Git*** Es Software de control de versiones diseñado por ***Linus Torvals***.
 Permite gestionar el historial de un proyecto, trabjar en equipo y mantener la calidad del código
 
 ***Resuelve problemas como:***
