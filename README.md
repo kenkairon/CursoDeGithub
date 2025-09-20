@@ -169,12 +169,14 @@ git reset --hard HEAD~1
 ```
 ---
 ## 📚 Glosario técnico
-|Término |	Definición|
-|Repositorio	|Carpeta que contiene todos los archivos y el historial de cambios|
-|Commit	|Registro de cambios con mensaje y autoría|
-|Push	|Envío de cambios al repositorio remoto|
-|Pull	|Descarga de cambios desde el repositorio remoto|
-|Fetch	|Consulta de cambios disponibles sin descargarlos|
-|Stage	|Área de preparación antes de confirmar cambios|
-|Fork	|Copia de un repositorio para modificarlo sin afectar el original|
-|GitHub Actions	|Automatizaciones que se ejecutan sobre el código|
+
+| Término        | Definición                                                   |
+|----------------|--------------------------------------------------------------|
+| Repositorio    | Carpeta que contiene todos los archivos y el historial de cambios |
+| Commit         | Registro de cambios con mensaje y autoría                     |
+| Push           | Envío de cambios al repositorio remoto                        |
+| Pull           | Descarga de cambios desde el repositorio remoto               |
+| Fetch          | Consulta de cambios disponibles sin descargarlos              |
+| Stage          | Área de preparación antes de confirmar cambios                |
+| Fork           | Copia de un repositorio para modificarlo sin afectar el original |
+| GitHub Actions | Automatizaciones que se ejecutan sobre el código              |
