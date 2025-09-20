@@ -1,4 +1,4 @@
-# Curso de Git y GitHub
+# 🧠 Fundamentos de Git y GitHub
 
 Este repositorio contiene ejemplo y pasos básicos para aprender a trabajar con **Git** y **GitHub**
 
@@ -6,10 +6,15 @@ Este repositorio contiene ejemplo y pasos básicos para aprender a trabajar con 
 
 ---
 
-## 📌 Software Necesario
+# 🎯 Objetivo de Clase 
+Introducir los conceptos fundamentales de Git y GitHub, explicar la utilidad en el desarrollo 
+colaborativo, y practicar el flujo básico de trabajo  con repositorios locales y remoto
 
-[Visual Studio Code](https://code.visualstudio.com/) 
-[Git](https://git-scm.com/) 
+## 📌 Herramientas Necesarias
+
+- Editor de Codigo [Visual Studio Code](https://code.visualstudio.com/) 
+- Terminal: PowerShell, Terminal(Windows), iTerm(Mac), terminal estandar(Linux)
+- Git: Sistema de Control de Versiones Descargar desde [Git](https://git-scm.com/) 
 
 ---
 
@@ -18,6 +23,12 @@ Este repositorio contiene ejemplo y pasos básicos para aprender a trabajar con 
 ***Git** Es Software de control de versiones diseñado por ***Linus Torvals***.
 Permite gestionar el historial de un proyecto, trabjar en equipo y mantener la calidad del código
 
+***Resuelve problemas como:***
+- Manejo de versiones (“final_final_v2”)
+- Historial de cambios
+- Autoría de líneas de código
+- Reversión de errores
+
 ### ✅ Beneficios de Git
 - Trabajo en Equipo más organizado
 - Manejos de Calidad  y Control de Cambios
@@ -25,6 +36,13 @@ Permite gestionar el historial de un proyecto, trabjar en equipo y mantener la c
 
 ---
 
+## 🌐 ¿Qué es GitHub?
+Plataforma para alojar repositorios Git
+Funciona como red social profesional para desarrolladores
+Permite compartir, revisar y colaborar en proyectos
+Repositorios pueden ser públicos o privados
+
+---
 ##  📂 Repositorios
 Un repositorio es el proyecto con todos los archivos y su historial
 Puede estar disponible en servicio online **GitHUb, Bitbucket, Gitlab**.
@@ -54,12 +72,14 @@ Normalmente trabajamos con una **copia local** en nuestro equipo.
 ```sh
 git -v 
 ```
+
 ## Crear un archivo de prueba:
 
 ```sh
 touch ejemplo.html
 ```
 
+## Crea archivo html
 ```html
 <!DOCTYPE html>
 <html lang="es">
@@ -94,15 +114,39 @@ git push -u origin main
 ```sh
 git remote -v
 ```
-
-## 📊 Comandos informativos
-
+---
+## 📥 Traer cambios del repositorio remoto
+### 1. Verificar si hay cambios disponibles
+Para consultar si existen actualizaciones en el repositorio remoto sin descargarlas aún, utiliza el siguiente comando:
 ```sh
-git fech 
+git fetch
+```
+### 2. Descargar cambios
+Para traer los cambios del repositorio remoto y fusionarlos con tu rama local actual, utiliza el siguiente comando:
+```sh
+git pull
+```
+### 3. Ver estado actual
+Para revisar el estado del repositorio y ver qué archivos han sido modificados, agregados o están listos para confirmar, utiliza el siguiente comando:
+```sh
 git status
 ```
+## 🧪 Revertir cambios y ver historial
+### 1. Ver historial de commits
+Para consultar el historial de cambios realizados en el repositorio, utiliza el siguiente comando:
+```sh
+git log
+```
+### 2. Revertir un commit específico
+Si necesitas deshacer un cambio que ya fue confirmado, puedes revertir un commit específico utilizando su identificador SHA:
+```sh
+git revert SHA
+````
+Reemplaza SHA por el código único del commit que deseas revertir (puedes obtenerlo con git log).
+Este comando no elimina el commit original, sino que crea uno nuevo que revierte sus efectos.
+---
 
-## 🔄 Clonar un repositorio existente
+🔄 Clonar un repositorio existente
 
 ```sh
 git clone https://github.com/nolimits4web/swiper
@@ -122,12 +166,14 @@ git reset --mixed HEAD~1
 ```sh
 git reset --hard HEAD~1
 ```
-
-## Plugins
-
-| Plugin | README |
-| ------ | ------ |    
-| GitHub | [plugins/github/README.md][PlGh] |
-
-
-
+---
+## 📚 Glosario técnico
+|Término |	Definición|
+|Repositorio	|Carpeta que contiene todos los archivos y el historial de cambios|
+|Commit	|Registro de cambios con mensaje y autoría|
+|Push	|Envío de cambios al repositorio remoto
+|Pull	|Descarga de cambios desde el repositorio remoto
+|Fetch	|Consulta de cambios disponibles sin descargarlos
+|Stage	|Área de preparación antes de confirmar cambios
+|Fork	|Copia de un repositorio para modificarlo sin afectar el original
+|GitHub Actions	|Automatizaciones que se ejecutan sobre el código
