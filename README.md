@@ -50,7 +50,7 @@ Normalmente trabajamos con una **copia local** en nuestro equipo.
 
 ---
 
-## 🚀 Primeros pasos Git 
+## 🚀 Primeros pasos Git Hub
 
 ### Crear cuenta en GitHub 
 👉 [Registrarme en GitHub](https://github.com/)
