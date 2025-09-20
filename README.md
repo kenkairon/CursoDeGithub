@@ -141,9 +141,10 @@ git log
 Si necesitas deshacer un cambio que ya fue confirmado, puedes revertir un commit específico utilizando su identificador SHA:
 ```sh
 git revert SHA
-````
+```
 Reemplaza SHA por el código único del commit que deseas revertir (puedes obtenerlo con git log).
 Este comando no elimina el commit original, sino que crea uno nuevo que revierte sus efectos.
+
 ---
 
 🔄 Clonar un repositorio existente
@@ -171,9 +172,9 @@ git reset --hard HEAD~1
 |Término |	Definición|
 |Repositorio	|Carpeta que contiene todos los archivos y el historial de cambios|
 |Commit	|Registro de cambios con mensaje y autoría|
-|Push	|Envío de cambios al repositorio remoto
-|Pull	|Descarga de cambios desde el repositorio remoto
-|Fetch	|Consulta de cambios disponibles sin descargarlos
-|Stage	|Área de preparación antes de confirmar cambios
-|Fork	|Copia de un repositorio para modificarlo sin afectar el original
-|GitHub Actions	|Automatizaciones que se ejecutan sobre el código
+|Push	|Envío de cambios al repositorio remoto|
+|Pull	|Descarga de cambios desde el repositorio remoto|
+|Fetch	|Consulta de cambios disponibles sin descargarlos|
+|Stage	|Área de preparación antes de confirmar cambios|
+|Fork	|Copia de un repositorio para modificarlo sin afectar el original|
+|GitHub Actions	|Automatizaciones que se ejecutan sobre el código|
